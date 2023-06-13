@@ -1,0 +1,277 @@
+{
+  "doctor": [
+    {
+      "id": 1,
+      "image": "https://t3.ftcdn.net/jpg/02/95/51/80/360_F_295518052_aO5d9CqRhPnjlNDTRDjKLZHNftqfsxzI.jpg",
+      "name": "Oleksandr",
+      "age": 45,
+      "sex": "Male",
+      "Location": "Khersan, Ukraine",
+      "Marital": "Married",
+      "Occupation": "Cardiologist",
+      "About": "Oleksandr is a Cardiologist with over 10 years of experience. He always improves his professional skills, has a base of regular patients. Oleksandr is always calling for a way to optimise his time as much as possible.",
+      "Motivation": "To have convenient access to patients' records, to spend less time creating reports and records.",
+      "Pains": ["Increase time for Patients by reducing time which was spent on filling out reports.", "Improve Productivity through effective organization of the workspace.", "Have convenient appointment schedule with patients.", "The possibility of digitization and work in an online format."],
+      "Exp": "Experienced in using Web services and applications",
+      "Context": "For work, for most of the cases he uses a desktop or a tablet.",
+      "qualification": "P.hd",
+      "rating": {
+        "rate": 5.0,
+        "review": 400
+      },
+      "price": 999
+    },
+    {
+      "id": 2,
+      "image": "https://t3.ftcdn.net/jpg/02/95/51/80/360_F_295518052_aO5d9CqRhPnjlNDTRDjKLZHNftqfsxzI.jpg",
+      "name": "John Doe",
+      "age": 38,
+      "sex": "Male",
+      "Location": "New York, USA",
+      "Marital": "Single",
+      "Occupation": "Dermatologist",
+      "About": "John Doe is a highly skilled Dermatologist with expertise in diagnosing and treating various skin conditions. He is passionate about helping patients achieve healthy and radiant skin.",
+      "Motivation": "To provide personalized skincare solutions to patients, stay updated with the latest advancements in dermatology.",
+      "Pains": ["Long waiting times for patients during appointments.", "Difficulty in finding effective treatments for complex skin conditions.", "Limited availability of advanced dermatological equipment."],
+      "Exp": "Extensive experience in conducting skin cancer screenings and performing cosmetic procedures.",
+      "Context": "Uses a combination of desktop, laptop, and smartphone for work.",
+      "qualification": "MD",
+      "rating": {
+        "rate": 4.8,
+        "review": 300
+      },
+      "price": 799
+    },
+    // Add more doctor objects following a similar structure
+    {
+      "id": 3,
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg",
+      "name": "Jane Smith",
+      "age": 42,
+      "sex": "Female",
+      "Location": "London, UK",
+      "Marital": "Married",
+      "Occupation": "Pediatrician",
+      "About": "Jane Smith is a caring and compassionate Pediatrician dedicated to providing the best possible healthcare for children. She believes in building strong relationships with both her patients and their parents.",
+      "Motivation": "To ensure the health and well-being of children, promote preventive care, and support parents in their parenting journey.",
+      "Pains": ["Managing a large number of patients with varying medical needs.", "Communicating complex medical information to young patients and their parents.", "Keeping up with the latest advancements in pediatric medicine."],
+      "Exp": "Specializes in diagnosing and treating common childhood illnesses and developmental disorders.",
+      "Context": "Primarily uses a laptop for work, but also has a smartphone for quick access to patient records.",
+      "qualification": "MBBS",
+      "rating": {
+        "rate": 4.9,
+        "review": 250
+      },
+      "price": 899
+    },
+    {
+      "id": 4,
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg",
+      "name": "Emily Johnson",
+      "age": 36,
+      "sex": "Female",
+      "Location": "Sydney, Australia",
+      "Marital": "Single",
+      "Occupation": "Orthopedic Surgeon",
+      "About": "Emily Johnson is a skilled Orthopedic Surgeon specializing in the diagnosis and treatment of musculoskeletal conditions. She is dedicated to helping patients regain their mobility and live pain-free lives.",
+      "Motivation": "To provide the best possible surgical care for patients with orthopedic conditions, contribute to medical research in the field of orthopedics.",
+      "Pains": ["Limited operating room availability for complex surgeries.", "Keeping up with the advancements in surgical techniques and technologies.", "Balancing a demanding surgical schedule with patient consultations and follow-ups."],
+      "Exp": "Performed numerous successful joint replacement surgeries and fracture repairs.",
+      "Context": "Relies on desktop workstations and medical imaging systems for surgical planning.",
+      "qualification": "MS",
+      "rating": {
+        "rate": 4.7,
+        "review": 350
+      },
+      "price": 1299
+    },
+    {
+      "id": 5,
+      "image": "https://t3.ftcdn.net/jpg/02/95/51/80/360_F_295518052_aO5d9CqRhPnjlNDTRDjKLZHNftqfsxzI.jpg",
+      "name": "David Williams",
+      "age": 50,
+      "sex": "Male",
+      "Location": "Toronto, Canada",
+      "Marital": "Married",
+      "Occupation": "Psychiatrist",
+      "About": "David Williams is a compassionate Psychiatrist with a deep understanding of mental health conditions. He believes in providing personalized treatment plans to help patients overcome their challenges.",
+      "Motivation": "To support individuals struggling with mental health issues, reduce the stigma surrounding mental illness.",
+      "Pains": ["Limited availability of psychiatric facilities and resources.", "Navigating complex insurance and billing processes.", "Addressing the unique mental health needs of diverse patient populations."],
+      "Exp": "Skilled in diagnosing and managing a wide range of mental health disorders.",
+      "Context": "Uses a combination of desktop, laptop, and tablet for patient consultations and documentation.",
+      "qualification": "MD",
+      "rating": {
+        "rate": 4.5,
+        "review": 500
+      },
+      "price": 899
+    },
+    {
+      "id": 6,
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg",
+      "name": "Maria Garcia",
+      "age": 39,
+      "sex": "Female",
+      "Location": "Madrid, Spain",
+      "Marital": "Married",
+      "Occupation": "Gynecologist",
+      "About": "Maria Garcia is a skilled Gynecologist dedicated to providing comprehensive care for women's reproductive health. She believes in empowering women to make informed decisions about their health and well-being.",
+      "Motivation": "To promote women's health, support women throughout their reproductive journey, and provide expert medical advice.",
+      "Pains": ["Managing a high volume of patient appointments.", "Maintaining accurate and up-to-date electronic medical records.", "Addressing the unique healthcare needs of women from diverse backgrounds."],
+      "Exp": "Experienced in performing routine gynecological exams, diagnosing and treating various gynecological conditions.",
+      "Context": "Relies on a combination of desktop, laptop, and ultrasound machines for patient consultations and exams.",
+      "qualification": "MD",
+      "rating": {
+        "rate": 4.6,
+        "review": 450
+      },
+      "price": 999
+    },
+    {
+      "id": 7,
+      "image": "https://t3.ftcdn.net/jpg/02/95/51/80/360_F_295518052_aO5d9CqRhPnjlNDTRDjKLZHNftqfsxzI.jpg",
+      "name": "Michael Thompson",
+      "age": 47,
+      "sex": "Male",
+      "Location": "Los Angeles, USA",
+      "Marital": "Married",
+      "Occupation": "Ophthalmologist",
+      "About": "Michael Thompson is a highly skilled Ophthalmologist specializing in the diagnosis and treatment of eye diseases. He is dedicated to helping patients maintain optimal eye health and achieve clear vision.",
+      "Motivation": "To provide personalized eye care services, stay updated with the latest advancements in ophthalmology.",
+      "Pains": ["Managing a high volume of patient appointments.", "Keeping up with the advancements in surgical techniques and technologies.", "Addressing the unique eye care needs of diverse patient populations."],
+      "Exp": "Performed numerous successful cataract surgeries and laser eye treatments.",
+      "Context": "Relies on a combination of desktop, laptop, and ophthalmic instruments for patient consultations and eye exams.",
+      "qualification": "MD",
+      "rating": {
+        "rate": 4.9,
+        "review": 350
+      },
+      "price": 1299
+    },
+    {
+      "id": 8,
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg",
+      "name": "Sophia Lee",
+      "age": 32,
+      "sex": "Female",
+      "Location": "Seoul, South Korea",
+      "Marital": "Single",
+      "Occupation": "Dentist",
+      "About": "Sophia Lee is a skilled Dentist specializing in general and cosmetic dentistry. She is committed to providing gentle and effective dental care to patients of all ages.",
+      "Motivation": "To help patients achieve optimal oral health, enhance their smiles, and alleviate dental anxiety.",
+      "Pains": ["Managing a busy schedule with multiple patient appointments.", "Keeping up with the advancements in dental technology and techniques.", "Educating patients about the importance of oral hygiene and preventive care."],
+      "Exp": "Experienced in performing routine dental check-ups, fillings, and teeth whitening procedures.",
+      "Context": "Relies on a combination of desktop, laptop, and dental instruments for patient consultations and treatments.",
+      "qualification": "DDS",
+      "rating": {
+        "rate": 4.7,
+        "review": 400
+      },
+      "price": 699
+    },
+    {
+      "id": 9,
+      "image": "https://t3.ftcdn.net/jpg/02/95/51/80/360_F_295518052_aO5d9CqRhPnjlNDTRDjKLZHNftqfsxzI.jpg",
+      "name": "Thomas Wilson",
+      "age": 55,
+      "sex": "Male",
+      "Location": "Berlin, Germany",
+      "Marital": "Married",
+      "Occupation": "Neurologist",
+      "About": "Thomas Wilson is a renowned Neurologist with expertise in diagnosing and treating disorders of the nervous system. He is dedicated to providing comprehensive care for patients with neurological conditions.",
+      "Motivation": "To improve the quality of life for patients with neurological disorders, contribute to ongoing research in the field of neurology.",
+      "Pains": ["Managing a large number of complex cases with varying symptoms.", "Keeping up with the latest advancements in neurology.", "Addressing the unique healthcare needs of patients with neurological conditions."],
+      "Exp": "Specializes in diagnosing and treating conditions such as epilepsy, stroke, and Parkinson's disease.",
+      "Context": "Relies on a combination of desktop, laptop, and neuroimaging systems for patient consultations and diagnosis.",
+      "qualification": "MD",
+      "rating": {
+        "rate": 4.8,
+        "review": 300
+      },
+      "price": 1499
+    },
+    {
+      "id": 10,
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg",
+      "name": "Isabella Martinez",
+      "age": 41,
+      "sex": "Female",
+      "Location": "Mexico City, Mexico",
+      "Marital": "Married",
+      "Occupation": "Obstetrician-Gynecologist",
+      "About": "Isabella Martinez is a compassionate Obstetrician-Gynecologist specializing in women's reproductive health and pregnancy care. She is dedicated to providing personalized care and support to women during every stage of their reproductive journey.",
+      "Motivation": "To ensure the health and well-being of women, promote safe and positive childbirth experiences.",
+      "Pains": ["Managing a high volume of prenatal and postnatal patient appointments.", "Addressing the unique healthcare needs of women from diverse cultural backgrounds.", "Keeping up with the advancements in obstetric and gynecological care."],
+      "Exp": "Experienced in performing routine prenatal check-ups, delivering babies, and providing postnatal care.",
+      "Context": "Relies on a combination of desktop, laptop, and ultrasound machines for patient consultations and pregnancy monitoring.",
+      "qualification": "MD",
+      "rating": {
+        "rate": 4.9,
+        "review": 250
+      },
+      "price": 999
+    },
+    {
+      "id": 11,
+      "image": "https://t3.ftcdn.net/jpg/02/95/51/80/360_F_295518052_aO5d9CqRhPnjlNDTRDjKLZHNftqfsxzI.jpg",
+      "name": "Robert Johnson",
+      "age": 43,
+      "sex": "Male",
+      "Location": "Melbourne, Australia",
+      "Marital": "Married",
+      "Occupation": "General Surgeon",
+      "About": "Robert Johnson is a highly skilled General Surgeon with expertise in performing a wide range of surgical procedures. He is dedicated to providing exceptional surgical care and improving patients' quality of life.",
+      "Motivation": "To help patients recover from complex medical conditions, contribute to medical research in the field of surgery.",
+      "Pains": ["Managing a demanding surgical schedule with patient consultations and follow-ups.", "Keeping up with the advancements in surgical techniques and technologies.", "Addressing the unique healthcare needs of patients with diverse medical conditions."],
+      "Exp": "Performed numerous successful surgeries, including appendectomies, gallbladder removals, and hernia repairs.",
+      "Context": "Relies on a combination of desktop, laptop, and surgical instruments for patient consultations and surgical procedures.",
+      "qualification": "MS",
+      "rating": {
+        "rate": 4.7,
+        "review": 350
+      },
+      "price": 1299
+    },
+    {
+      "id": 12,
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg",
+      "name": "Olivia Wilson",
+      "age": 38,
+      "sex": "Female",
+      "Location": "London, United Kingdom",
+      "Marital": "Single",
+      "Occupation": "Dermatologist",
+      "About": "Olivia Wilson is a skilled Dermatologist specializing in the diagnosis and treatment of skin conditions. She is committed to helping patients achieve healthy and radiant skin.",
+      "Motivation": "To provide personalized dermatological care, stay updated with the latest advancements in dermatology.",
+      "Pains": ["Managing a high volume of patient appointments.", "Keeping up with the advancements in dermatological treatments and procedures.", "Addressing the unique skincare needs of patients from diverse backgrounds."],
+      "Exp": "Experienced in diagnosing and treating conditions such as acne, eczema, and skin cancer.",
+      "Context": "Relies on a combination of desktop, laptop, and dermatological instruments for patient consultations and skin examinations.",
+      "qualification": "MD",
+      "rating": {
+        "rate": 4.8,
+        "review": 400
+      },
+      "price": 899
+    }
+  ],
+  "patient": [
+    {
+      "id": 1,
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Rohan kumar",
+      "age": 38,
+      "sex": "Male",
+      "Location": "Delhi, India",
+      "Marital": "Single",
+      "Occupation": "Seller",
+      "About": "Rohan, a seller who spends a lot of time at work and cannot always find time to visit a doctor offline. He cares about his health and wants to find an online medical service for conveninent use.",
+      "Motivation": "Comfort in treatment, conveninent appointment times, affordable prices",
+      "Pains": ["have a choice of medical staff", "the ability to make an appointment at any time", "recieve prescriptions and examination results online"],
+      "Exp": "The user is a new and will continue to use the service",
+      "Context": "At his own request, uses a mobile phone or tablet most often, especially during work.",
+      "email": "rohan@gmail.com",
+      "password": 12345
+    }
+  ],
+  "Cart": []
+}
